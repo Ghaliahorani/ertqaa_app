@@ -3,6 +3,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "cd ertqaa && php artisan serve --host=0.0.0.0 --port=$PORT"
+    "startCommand": "cd ertqaa_app && php artisan serve --host=0.0.0.0 --port=$PORT"
   }
 }
