@@ -1,8 +1,0 @@
-[build]
-builder = "railpack"
-
-[deploy]
-start = "php artisan serve --host 0.0.0.0 --port $PORT"
-
-[php]
-version = "8.2"
